@@ -17,6 +17,7 @@ yt-dlp>=2024.1.0
 # Audio separation
 demucs>=4.0.0
 torch>=2.0.0
+torchaudio>=2.0.0
 
 # Audio analysis & processing
 librosa>=0.10.0
