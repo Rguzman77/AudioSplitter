@@ -1,0 +1,31 @@
+# Web framework
+fastapi>=0.110.0
+uvicorn[standard]>=0.27.0
+python-multipart>=0.0.9
+
+# Data / ORM
+sqlalchemy>=2.0.0
+pydantic>=2.0.0
+pydantic-settings>=2.0.0
+
+# Async file I/O
+aiofiles>=23.0.0
+
+# YouTube download
+yt-dlp>=2024.1.0
+
+# Audio separation
+demucs>=4.0.0
+torch>=2.0.0
+
+# Audio analysis & processing
+librosa>=0.10.0
+soundfile>=0.12.0
+numpy>=1.26.0
+
+# Job queue (optional – falls back to threads if Redis unavailable)
+rq>=1.16.0
+redis>=5.0.0
+
+# Pitch/tempo quality upgrade (optional – requires rubberband binary)
+# pyrubberband>=0.3.0

@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.Python
+venv/
+.env/
+.venv/
+env/
+ENV/
+pythonenv*
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+coverage/
+htmlcov/
+
+# FastAPI / app runtime
+.env
+.env.*
+!.env.example
+*.sqlite3
+*.db
+*.log
+
+# Local database and generated media
+audio-platform/backend/audio_platform.db
+audio-platform/backend/storage/uploads/*
+audio-platform/backend/storage/stems/*
+!audio-platform/backend/storage/uploads/.gitkeep
+!audio-platform/backend/storage/stems/.gitkeep
+
+# Node / frontend
+node_modules/
+audio-platform/frontend/node_modules/
+dist/
+audio-platform/frontend/dist/
+.vite/
+audio-platform/frontend/.vite/
+.cache/
+audio-platform/frontend/.cache/
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+.claude/
+
+# Optional build artifacts
+build/
+out/
+coverage/
